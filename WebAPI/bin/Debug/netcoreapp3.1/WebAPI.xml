@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.AuthorsController.GetAll">
+            <summary>
+            Get All Authors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.AuthorsController.GetById(System.Int32)">
+            <summary>
+            Get Authors By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.BooksController.GetAll">
+            <summary>
+            Get All Books
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.BooksController.GetBookById(System.Int32)">
+            <summary>
+            Get Book By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.BooksController.GetBookBySubcategoryId(System.Int32)">
+            <summary>
+            Get Book By Subcategory Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.BooksController.GetBookByPublisherId(System.Int32)">
+            <summary>
+            Get Book By Publisher Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.BooksController.GetBookByAuthorId(System.Int32)">
+            <summary>
+            Get Book By Author Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriesController.GetAll">
+            <summary>
+            Get All Categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriesController.GetById(System.Int32)">
+            <summary>
+            Get Category By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.PublishersController.GetAll">
+            <summary>
+            Get All Publishers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.PublishersController.GetById(System.Int32)">
+            <summary>
+            Get Publisher By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.SubcategoriesController.GetAll">
+            <summary>
+            Get All Subcategories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.SubcategoriesController.GetById(System.Int32)">
+            <summary>
+            Get Subcategory By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebAPI.Controllers.SubcategoriesController.GetByCategoryId(System.Int32)">
+            <summary>
+            Get Subcategory By Category Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
